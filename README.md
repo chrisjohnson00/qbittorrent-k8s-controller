@@ -1,6 +1,8 @@
 # qbittorrent-k8s-controller
 A super simple controller for chrisjohnson00/qbittorrent-openvpn 
 
+This will scan for pods by label selector, and if they have been restarted/crash looped enough, it will delete the pod.
+
 ## Dependencies
 
     pip install --upgrade pip

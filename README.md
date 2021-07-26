@@ -6,7 +6,7 @@ A super simple controller for chrisjohnson00/qbittorrent-openvpn
     pip install --upgrade pip
     pip install --upgrade pygogo kubernetes
     pip freeze > requirements.txt
-    sed -i '/pkg-resources/d' requirements.txt
+    sed -i '/pkg_resources/d' requirements.txt
 
 
 ## Env vars

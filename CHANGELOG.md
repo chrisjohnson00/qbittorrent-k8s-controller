@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.6](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/tree/v0.1.6) (2021-07-26)
+
+[Full Changelog](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/compare/v0.1.5...v0.1.6)
+
+**Merged pull requests:**
+
+- ci: fixing push\_release\_container.yaml [\#14](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/pull/14) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.1.5](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/tree/v0.1.5) (2021-07-26)
 
 [Full Changelog](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/compare/v0.1.4...v0.1.5)

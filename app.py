@@ -30,8 +30,9 @@ def check_for_pods_crashlooping(k8s_client):
         status = pod.status  # type: V1PodStatus
         statuses = status.container_statuses  # type: [V1ContainerStatus]
         for status in statuses:
-            if status.restart_count > int(get_config("KILL_AFTER_RESTARTS")):
-                logger.info(f"Deleting {pod.metadata.name}")  # delete_pod(k8s_client, pod)
+            if status.restart_count >= int(get_config("KILL_AFTER_RESTARTS")):
+                logger.info(
+                    f"Deleting {pod.metadata.name} with {status.restart_count} restarts")  # delete_pod(k8s_client, pod)
                 delete_pod(k8s_client, pod)
 
 

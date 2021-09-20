@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.7](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/tree/v0.1.7) (2021-09-20)
+
+[Full Changelog](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/compare/v0.1.6...v0.1.7)
+
+**Fixed bugs:**
+
+- fix: restart count eval should be gte not gt [\#33](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/pull/33) ([chrisjohnson00](https://github.com/chrisjohnson00))
+
 ## [v0.1.6](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/tree/v0.1.6) (2021-07-26)
 
 [Full Changelog](https://github.com/chrisjohnson00/qbittorrent-k8s-controller/compare/v0.1.5...v0.1.6)

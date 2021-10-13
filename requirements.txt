@@ -3,7 +3,7 @@ certifi==2021.5.30
 cffi==1.14.6
 charset-normalizer==2.0.3
 google-auth==1.33.1
-idna==3.2
+idna==3.3
 kubernetes==18.20.0
 oauthlib==3.1.1
 pause==0.3
